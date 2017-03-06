@@ -1,6 +1,6 @@
 import Rx from 'rx';
 import initWs from './ws';
-import {a, b, button, update} from './doc';
+import {a, b, update} from './doc';
 
 /*
  * We use a Subject because it's both an Observer and an Observable.
