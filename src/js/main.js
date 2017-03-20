@@ -29,7 +29,7 @@ const bs = stream.where(x => x.name === 'b');
 const ws = initWs();
 
 ws.onmessage = function({data}){
-  const update = JSON.parse(data)
+  const update = JSON.parse(data);
 
   /* onNext is like a manual update.
    * Every time a WS message comes in, it adds it to the stream
