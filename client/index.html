@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Eric Zanchi">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RxJS WebSocket</title>
+    <style>
+      html {
+        font-size: 62.5%;
+      }
+      body {
+        color: #333;
+        font-family: sans-serif;
+        font-size: 12px;
+        text-align: center;
+      }
+      html, body {
+        margin: 0;
+      }
+      .col {
+        min-width: 300px;
+      }
+      .container {
+        display: flex;
+        justify-content: space-around;
+      }
+      .uuids {
+        display: block;
+        font-family: monospace;
+        height: 500px;
+        resize: none;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col">
+        <h1>"A" Events from Server</h1>
+        <textarea readonly class="uuids" id="a"></textarea>
+      </div>
+      <div class="col">
+        <h1>"B" Events from Server</h1>
+        <textarea readonly class="uuids" id="b"></textarea>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

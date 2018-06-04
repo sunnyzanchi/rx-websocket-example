@@ -1,2 +1,3 @@
-node_modules
-public/js
+.cache/
+dist/
+node_modules/
